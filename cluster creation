@@ -1,0 +1,1 @@
+kops create cluster --name raghu.k8s.local --zones=us-east-2a,us-east-2b --master-size c7i-flex.large --master-count 1 --master-volume-size 30 --node-size t3.micro --node-count 2 --node-volume-size 20 --image=ami-0f5fcdfbd140e4ab7
